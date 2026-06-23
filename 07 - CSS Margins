@@ -1,0 +1,39 @@
+# CSS Margins
+
+Margins create space outside elements.
+
+## Example
+
+```css
+div {
+    margin: 20px;
+}
+```
+
+## Individual Sides
+
+```css
+div {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+```
+
+## Centering Elements
+
+```css
+div {
+    width: 300px;
+    margin: auto;
+}
+```
+
+## Real-World Example
+
+Margins create spacing between sections.
+
+## Summary
+
+Margins improve layout readability.
