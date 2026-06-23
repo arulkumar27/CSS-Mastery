@@ -1,0 +1,38 @@
+# CSS Padding
+
+Padding creates space inside an element.
+
+## Example
+
+```css
+div {
+    padding: 20px;
+}
+```
+
+## Individual Sides
+
+```css
+div {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+```
+
+## Button Example
+
+```css
+button {
+    padding: 12px 24px;
+}
+```
+
+## Real-World Example
+
+Padding makes buttons easier to click.
+
+## Summary
+
+Padding improves content spacing inside elements.
