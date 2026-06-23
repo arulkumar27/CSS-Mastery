@@ -1,0 +1,48 @@
+# CSS Syntax
+
+## Basic Structure
+
+```css
+selector {
+    property: value;
+}
+```
+
+## Example
+
+```css
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+```
+
+### Explanation
+
+- h1 → Selector
+- color → Property
+- blue → Value
+- font-size → Property
+- 30px → Value
+
+## Multiple Properties
+
+```css
+p {
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+}
+```
+
+## Best Practices
+
+- Use proper indentation
+- End every property with semicolon
+- Use meaningful class names
+
+## Summary
+
+CSS syntax follows the pattern:
+
+Selector → Property → Value
