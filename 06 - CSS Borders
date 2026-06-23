@@ -1,0 +1,43 @@
+# CSS Borders
+
+Borders define the outline around elements.
+
+## Basic Border
+
+```css
+div {
+    border: 2px solid black;
+}
+```
+
+## Dashed Border
+
+```css
+div {
+    border: 2px dashed blue;
+}
+```
+
+## Dotted Border
+
+```css
+div {
+    border: 2px dotted red;
+}
+```
+
+## Rounded Corners
+
+```css
+div {
+    border-radius: 10px;
+}
+```
+
+## Real-World Example
+
+Cards and buttons often use rounded borders.
+
+## Summary
+
+Borders help separate and highlight content.
