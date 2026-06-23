@@ -1,0 +1,60 @@
+# CSS Selectors
+
+Selectors identify HTML elements that need styling.
+
+## Element Selector
+
+```css
+h1 {
+    color: red;
+}
+```
+
+## Class Selector
+
+```css
+.title {
+    color: blue;
+}
+```
+
+HTML:
+
+```html
+<h1 class="title">Welcome</h1>
+```
+
+## ID Selector
+
+```css
+#header {
+    background-color: black;
+}
+```
+
+HTML:
+
+```html
+<div id="header"></div>
+```
+
+## Universal Selector
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+}
+```
+
+## Group Selector
+
+```css
+h1, h2, h3 {
+    color: navy;
+}
+```
+
+## Summary
+
+Selectors help target specific elements for styling.
