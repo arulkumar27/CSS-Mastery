@@ -1,0 +1,59 @@
+# CSS Colors
+
+CSS provides multiple ways to add colors.
+
+## Color Names
+
+```css
+h1 {
+    color: red;
+}
+```
+
+## HEX Colors
+
+```css
+h1 {
+    color: #ff0000;
+}
+```
+
+## RGB
+
+```css
+h1 {
+    color: rgb(255, 0, 0);
+}
+```
+
+## RGBA
+
+```css
+h1 {
+    color: rgba(255, 0, 0, 0.5);
+}
+```
+
+## Background Color
+
+```css
+body {
+    background-color: lightgray;
+}
+```
+
+## Real-World Example
+
+Brand colors improve consistency across websites.
+
+Example:
+
+- Amazon
+- Facebook
+- Netflix
+
+Each uses unique color schemes.
+
+## Summary
+
+Colors improve visual appeal and branding.
