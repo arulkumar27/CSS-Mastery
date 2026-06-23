@@ -1,0 +1,51 @@
+# CSS Backgrounds
+
+Background properties control the appearance behind content.
+
+## Background Color
+
+```css
+body {
+    background-color: lightblue;
+}
+```
+
+## Background Image
+
+```css
+body {
+    background-image: url("background.jpg");
+}
+```
+
+## No Repeat
+
+```css
+body {
+    background-repeat: no-repeat;
+}
+```
+
+## Cover Entire Screen
+
+```css
+body {
+    background-size: cover;
+}
+```
+
+## Center Image
+
+```css
+body {
+    background-position: center;
+}
+```
+
+## Real-World Example
+
+Hero sections commonly use background images.
+
+## Summary
+
+Background properties create attractive page designs.
