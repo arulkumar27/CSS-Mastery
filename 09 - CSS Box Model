@@ -1,0 +1,41 @@
+# CSS Box Model
+
+Every HTML element is a box.
+
+## Components
+
+1. Content
+2. Padding
+3. Border
+4. Margin
+
+## Example
+
+```css
+div {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+}
+```
+
+## Box-Sizing
+
+```css
+* {
+    box-sizing: border-box;
+}
+```
+
+## Why Use Border-Box?
+
+It keeps width calculations simple.
+
+## Real-World Example
+
+Used in responsive layouts and card designs.
+
+## Summary
+
+Understanding the box model is essential for layouts.
