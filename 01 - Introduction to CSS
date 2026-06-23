@@ -1,0 +1,45 @@
+# Introduction to CSS
+
+## What is CSS?
+
+CSS (Cascading Style Sheets) is a stylesheet language used to control the appearance and layout of web pages.
+
+CSS helps developers:
+
+- Change colors
+- Add spacing
+- Control layouts
+- Create animations
+- Make websites responsive
+
+Without CSS, websites would only display plain HTML content.
+
+## Why CSS is Important
+
+- Improves user experience
+- Creates visually appealing websites
+- Supports responsive design
+- Separates content from presentation
+- Reduces code duplication
+
+## Real-World Example
+
+HTML creates the structure of a login page.
+
+CSS makes it attractive by adding:
+
+- Background colors
+- Rounded corners
+- Shadows
+- Responsive layouts
+
+## Benefits of CSS
+
+- Easy maintenance
+- Faster page loading
+- Consistent design
+- Better accessibility
+
+## Summary
+
+CSS transforms simple HTML pages into professional and interactive websites.
