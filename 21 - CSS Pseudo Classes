@@ -1,0 +1,83 @@
+# CSS Pseudo Classes
+
+Pseudo classes define the special state of an element.
+
+They allow developers to style elements based on user interaction or element state.
+
+## Common Pseudo Classes
+
+### :hover
+
+Applies styles when a user places the mouse over an element.
+
+```css
+button:hover {
+    background-color: blue;
+    color: white;
+}
+```
+
+### :focus
+
+Applies styles when an input field receives focus.
+
+```css
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+```
+
+### :active
+
+Applies styles while an element is being clicked.
+
+```css
+button:active {
+    transform: scale(0.95);
+}
+```
+
+### :first-child
+
+Targets the first child element.
+
+```css
+li:first-child {
+    color: red;
+}
+```
+
+### :last-child
+
+Targets the last child element.
+
+```css
+li:last-child {
+    color: green;
+}
+```
+
+### :nth-child()
+
+Targets a specific child.
+
+```css
+li:nth-child(2) {
+    color: blue;
+}
+```
+
+## Real World Example
+
+E-commerce websites use hover effects on product cards to improve user engagement.
+
+## Best Practices
+
+- Avoid excessive hover animations.
+- Ensure focus states remain accessible.
+- Use pseudo classes to improve user experience.
+
+## Summary
+
+Pseudo classes help create dynamic and interactive web interfaces.
