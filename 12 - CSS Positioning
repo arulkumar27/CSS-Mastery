@@ -1,0 +1,65 @@
+# CSS Positioning
+
+Positioning controls where elements appear on a page.
+
+## Static
+
+Default positioning.
+
+```css
+div {
+    position: static;
+}
+```
+
+## Relative
+
+Moves relative to its original position.
+
+```css
+div {
+    position: relative;
+    top: 20px;
+}
+```
+
+## Absolute
+
+Positions relative to nearest positioned parent.
+
+```css
+div {
+    position: absolute;
+    right: 10px;
+}
+```
+
+## Fixed
+
+Remains fixed during scrolling.
+
+```css
+header {
+    position: fixed;
+    top: 0;
+}
+```
+
+## Sticky
+
+Switches between relative and fixed.
+
+```css
+nav {
+    position: sticky;
+    top: 0;
+}
+```
+
+## Real-World Example
+
+Sticky navigation bars improve user experience.
+
+## Summary
+
+Positioning is essential for creating advanced layouts.
