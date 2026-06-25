@@ -1,0 +1,84 @@
+# CSS Best Practices
+
+Writing clean CSS is important for maintainability and scalability.
+
+## 1. Use Meaningful Class Names
+
+Bad:
+
+```css
+.red {
+    color: red;
+}
+```
+
+Good:
+
+```css
+.error-message {
+    color: red;
+}
+```
+
+## 2. Use External Stylesheets
+
+Bad:
+
+```html
+<p style="color:red;">Hello</p>
+```
+
+Good:
+
+```html
+<link rel="stylesheet" href="style.css">
+```
+
+## 3. Follow Consistent Naming
+
+Example:
+
+```css
+.navbar {}
+.navbar-logo {}
+.navbar-menu {}
+```
+
+## 4. Use CSS Variables
+
+```css
+:root {
+    --primary-color: #007bff;
+}
+```
+
+## 5. Minimize Repetition
+
+Avoid duplicating styles.
+
+```css
+.btn-primary,
+.btn-secondary {
+    padding: 10px;
+}
+```
+
+## 6. Organize CSS Properly
+
+Recommended Order:
+
+1. Variables
+2. Global Styles
+3. Layout
+4. Components
+5. Utilities
+
+## 7. Optimize Performance
+
+- Remove unused CSS.
+- Compress CSS files.
+- Minify production stylesheets.
+
+## Summary
+
+Clean CSS improves readability, scalability, and performance.
