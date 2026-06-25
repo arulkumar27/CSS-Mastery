@@ -1,0 +1,49 @@
+# CSS Transforms
+
+Transforms change an element's shape, size, or position.
+
+## Rotate
+
+```css
+div {
+    transform: rotate(45deg);
+}
+```
+
+## Scale
+
+```css
+div {
+    transform: scale(1.2);
+}
+```
+
+## Translate
+
+```css
+div {
+    transform: translateX(50px);
+}
+```
+
+## Skew
+
+```css
+div {
+    transform: skew(10deg);
+}
+```
+
+## Real-World Example
+
+Cards often enlarge when hovered.
+
+```css
+.card:hover {
+    transform: scale(1.05);
+}
+```
+
+## Summary
+
+Transforms create engaging UI interactions.
