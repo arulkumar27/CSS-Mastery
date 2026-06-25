@@ -1,0 +1,53 @@
+# CSS Display Property
+
+The display property determines how an HTML element is rendered on a webpage.
+
+## Common Display Values
+
+### Block
+
+Takes full width available.
+
+```css
+div {
+    display: block;
+}
+```
+
+### Inline
+
+Only takes required width.
+
+```css
+span {
+    display: inline;
+}
+```
+
+### Inline-Block
+
+Behaves like inline but allows width and height.
+
+```css
+button {
+    display: inline-block;
+}
+```
+
+### None
+
+Hides the element.
+
+```css
+.menu {
+    display: none;
+}
+```
+
+## Real-World Example
+
+Navigation menus often use display properties to control layouts.
+
+## Summary
+
+Display controls how elements appear and interact with surrounding content.
