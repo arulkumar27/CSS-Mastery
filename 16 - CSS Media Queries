@@ -1,0 +1,41 @@
+# CSS Media Queries
+
+Media queries apply styles based on screen size.
+
+## Basic Syntax
+
+```css
+@media (max-width: 768px) {
+    body {
+        background-color: lightgray;
+    }
+}
+```
+
+## Tablet Example
+
+```css
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+```
+
+## Mobile Example
+
+```css
+@media (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+}
+```
+
+## Real-World Example
+
+Responsive navigation menus use media queries.
+
+## Summary
+
+Media queries are the foundation of responsive websites.
