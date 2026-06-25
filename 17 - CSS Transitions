@@ -1,0 +1,40 @@
+# CSS Transitions
+
+Transitions create smooth changes between property values.
+
+## Example
+
+```css
+button {
+    background-color: blue;
+    transition: 0.3s;
+}
+```
+
+```css
+button:hover {
+    background-color: red;
+}
+```
+
+## Transition Properties
+
+```css
+transition-property: all;
+transition-duration: 0.5s;
+transition-timing-function: ease;
+```
+
+## Real-World Example
+
+Buttons often use hover transitions.
+
+## Benefits
+
+- Better user experience
+- Smooth interactions
+- Modern appearance
+
+## Summary
+
+Transitions add smooth visual effects to websites.
