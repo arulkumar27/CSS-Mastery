@@ -1,0 +1,43 @@
+# CSS Variables
+
+CSS Variables help reuse values throughout a stylesheet.
+
+## Creating Variables
+
+```css
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #28a745;
+}
+```
+
+## Using Variables
+
+```css
+button {
+    background-color: var(--primary-color);
+}
+```
+
+## Multiple Variables
+
+```css
+:root {
+    --font-size: 16px;
+    --border-radius: 8px;
+}
+```
+
+## Benefits
+
+- Easy maintenance
+- Consistent design
+- Faster updates
+
+## Real-World Example
+
+Large applications use variables for branding consistency.
+
+## Summary
+
+CSS Variables improve scalability and maintainability.
