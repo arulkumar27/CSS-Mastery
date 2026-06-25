@@ -1,0 +1,46 @@
+# Responsive Design
+
+Responsive design ensures websites work on all screen sizes.
+
+## Why Responsive Design?
+
+Users access websites using:
+
+- Mobile phones
+- Tablets
+- Laptops
+- Desktop computers
+
+## Responsive Image
+
+```css
+img {
+    max-width: 100%;
+}
+```
+
+## Flexible Layout
+
+```css
+.container {
+    width: 90%;
+}
+```
+
+## Mobile First Approach
+
+Design for mobile first and then scale up.
+
+## Real-World Example
+
+Amazon and Netflix adapt layouts based on device size.
+
+## Benefits
+
+- Better user experience
+- Improved SEO
+- Increased accessibility
+
+## Summary
+
+Responsive design is mandatory in modern web development.
