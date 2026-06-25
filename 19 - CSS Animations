@@ -1,0 +1,46 @@
+# CSS Animations
+
+Animations allow elements to move and change automatically.
+
+## Keyframes
+
+```css
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(200px);
+    }
+}
+```
+
+## Apply Animation
+
+```css
+.box {
+    animation: slide 2s infinite;
+}
+```
+
+## Animation Properties
+
+- animation-name
+- animation-duration
+- animation-delay
+- animation-iteration-count
+
+## Real-World Example
+
+Loading spinners use animations.
+
+## Benefits
+
+- Attractive UI
+- Improved engagement
+- Better user feedback
+
+## Summary
+
+Animations make websites more interactive.
