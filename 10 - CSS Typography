@@ -1,0 +1,59 @@
+# CSS Typography
+
+Typography controls the appearance of text.
+
+## Font Family
+
+```css
+body {
+    font-family: Arial, sans-serif;
+}
+```
+
+## Font Size
+
+```css
+p {
+    font-size: 18px;
+}
+```
+
+## Font Weight
+
+```css
+h1 {
+    font-weight: bold;
+}
+```
+
+## Text Alignment
+
+```css
+h1 {
+    text-align: center;
+}
+```
+
+## Line Height
+
+```css
+p {
+    line-height: 1.8;
+}
+```
+
+## Text Transform
+
+```css
+h1 {
+    text-transform: uppercase;
+}
+```
+
+## Real-World Example
+
+Good typography improves readability and user experience.
+
+## Summary
+
+Typography plays a major role in professional web design.
