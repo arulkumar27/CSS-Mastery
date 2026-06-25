@@ -1,0 +1,91 @@
+# CSS Interview Questions
+
+## 1. What is CSS?
+
+CSS (Cascading Style Sheets) is used to style HTML elements and control webpage appearance.
+
+---
+
+## 2. What is the Box Model?
+
+The CSS Box Model consists of:
+
+- Content
+- Padding
+- Border
+- Margin
+
+---
+
+## 3. Difference Between Relative and Absolute Positioning?
+
+Relative:
+Moves relative to original position.
+
+Absolute:
+Moves relative to nearest positioned parent.
+
+---
+
+## 4. What is Flexbox?
+
+A one-dimensional layout system used for alignment and spacing.
+
+---
+
+## 5. What is CSS Grid?
+
+A two-dimensional layout system used for rows and columns.
+
+---
+
+## 6. What is Responsive Design?
+
+Designing websites that adapt to different screen sizes.
+
+---
+
+## 7. Difference Between Inline, Block, and Inline-Block?
+
+Inline:
+Only occupies required width.
+
+Block:
+Occupies full width.
+
+Inline-Block:
+Allows width and height while remaining inline.
+
+---
+
+## 8. What Are Media Queries?
+
+CSS rules applied based on screen size.
+
+---
+
+## 9. What Are CSS Variables?
+
+Reusable custom properties.
+
+```css
+:root {
+    --primary-color: blue;
+}
+```
+
+---
+
+## 10. Difference Between Visibility Hidden and Display None?
+
+visibility:hidden
+
+Element remains in layout.
+
+display:none
+
+Element is removed from layout.
+
+## Summary
+
+These questions are commonly asked in Frontend Developer interviews.
