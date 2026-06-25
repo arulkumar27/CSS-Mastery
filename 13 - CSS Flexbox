@@ -1,0 +1,57 @@
+# CSS Flexbox
+
+Flexbox is a one-dimensional layout system.
+
+## Enable Flexbox
+
+```css
+.container {
+    display: flex;
+}
+```
+
+## Direction
+
+```css
+.container {
+    flex-direction: row;
+}
+```
+
+## Justify Content
+
+```css
+.container {
+    justify-content: center;
+}
+```
+
+## Align Items
+
+```css
+.container {
+    align-items: center;
+}
+```
+
+## Gap
+
+```css
+.container {
+    gap: 20px;
+}
+```
+
+## Real-World Example
+
+Used in navigation bars, cards, dashboards, and forms.
+
+## Benefits
+
+- Easy alignment
+- Responsive layouts
+- Less code
+
+## Summary
+
+Flexbox is one of the most important CSS layout techniques.
