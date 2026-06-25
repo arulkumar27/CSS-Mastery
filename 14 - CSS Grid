@@ -1,0 +1,50 @@
+# CSS Grid
+
+CSS Grid is a two-dimensional layout system.
+
+## Enable Grid
+
+```css
+.container {
+    display: grid;
+}
+```
+
+## Define Columns
+
+```css
+.container {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+```
+
+## Gap
+
+```css
+.container {
+    gap: 20px;
+}
+```
+
+## Example
+
+```css
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+```
+
+## Real-World Example
+
+E-commerce product pages use grid layouts.
+
+## Benefits
+
+- Powerful layouts
+- Easy responsiveness
+- Better organization
+
+## Summary
+
+Grid simplifies complex page structures.
