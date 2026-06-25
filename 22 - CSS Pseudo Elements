@@ -1,0 +1,70 @@
+# CSS Pseudo Elements
+
+Pseudo elements style specific parts of an element.
+
+## Common Pseudo Elements
+
+### ::before
+
+Adds content before an element.
+
+```css
+h1::before {
+    content: "🚀 ";
+}
+```
+
+### ::after
+
+Adds content after an element.
+
+```css
+h1::after {
+    content: " 🔥";
+}
+```
+
+### ::first-letter
+
+Styles the first letter.
+
+```css
+p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+```
+
+### ::first-line
+
+Styles the first line.
+
+```css
+p::first-line {
+    color: blue;
+}
+```
+
+### ::selection
+
+Styles highlighted text.
+
+```css
+::selection {
+    background: yellow;
+}
+```
+
+## Real World Example
+
+News websites use first-letter styling to create attractive article layouts.
+
+## Benefits
+
+- Cleaner HTML
+- Better styling flexibility
+- Improved visual presentation
+
+## Summary
+
+Pseudo elements enhance design without adding extra HTML elements.
